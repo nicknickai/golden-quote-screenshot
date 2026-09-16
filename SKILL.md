@@ -1,5 +1,5 @@
 ---
-name: golden-quote-screenshot
+name: quote-screenshot
 description: Create a vertically stitched quote screenshot sheet from a supplied video and source-time range. Use for chronological dialogue, subtitle, or golden-quote contact sheets with an intact first frame and tightly cropped later caption bands.
 ---
 
