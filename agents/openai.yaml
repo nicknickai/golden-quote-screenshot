@@ -1,0 +1,4 @@
+interface:
+  display_name: "Golden quote screenshot"
+  short_description: "Build chronological quote sheets from video ranges"
+  default_prompt: "Use $golden-quote-screenshot to turn my video time range into a chronological long screenshot."
