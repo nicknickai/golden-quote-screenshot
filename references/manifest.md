@@ -48,7 +48,7 @@ For generated captions, choose later-panel `cropHeight` large enough for all tex
 Run:
 
 ```bash
-node scripts/render-sheet.mjs --manifest /absolute/path/manifest.json --output /absolute/path/quote-sheet.png
+node scripts/render-sheet.js --manifest /absolute/path/manifest.json --output /absolute/path/quote-sheet.png
 ```
 
 The script validates ordering, paths, first-panel geometry, crop bounds, and output dimensions before rendering. It uses a local Chrome/Chromium executable and does not call a network service.

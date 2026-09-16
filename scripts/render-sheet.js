@@ -40,7 +40,7 @@ function findChrome() {
 const manifestArg = argValue("--manifest");
 const outputArg = argValue("--output");
 if (!manifestArg || !outputArg) {
-  fail("usage: render-sheet.mjs --manifest manifest.json --output sheet.png");
+  fail("usage: render-sheet.js --manifest manifest.json --output sheet.png");
 }
 
 const manifestPath = path.resolve(manifestArg);

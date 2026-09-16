@@ -61,7 +61,7 @@ Detailed agent instructions are in [`SKILL.md`](SKILL.md). The renderer manifest
 After extracting frames and creating a manifest:
 
 ```bash
-node scripts/render-sheet.mjs \
+node scripts/render-sheet.js \
   --manifest /absolute/path/manifest.json \
   --output /absolute/path/quote-sheet.png
 ```

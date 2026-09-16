@@ -39,7 +39,7 @@ Choose a stable frame after each caption is fully visible and before it begins c
 4. With generated captions, use readable white text with a dark outline or translucent dark backing. For bilingual output, keep the source text above its Chinese translation inside the same panel.
 5. Preserve the video’s source width. Do not stretch, rearrange, duplicate, or semantically regroup panels.
 
-Use `ffprobe` for media facts, `ffmpeg` for exact source-frame extraction, and a timestamp-capable ASR such as `faster-whisper` when no subtitles are present. For deterministic assembly, read [references/manifest.md](references/manifest.md) and run `scripts/render-sheet.mjs`.
+Use `ffprobe` for media facts, `ffmpeg` for exact source-frame extraction, and a timestamp-capable ASR such as `faster-whisper` when no subtitles are present. For deterministic assembly, read [references/manifest.md](references/manifest.md) and run `scripts/render-sheet.js`.
 
 ## Verification gate
 
